@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005C79BB2B1D814700FC5FFA /* RestaurantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005C79BA2B1D814700FC5FFA /* RestaurantAPI.swift */; };
+		007F879C2B06892E00F610B5 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F879B2B06892E00F610B5 /* PaymentVC.swift */; };
+		007F879F2B068F4900F610B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 007F879E2B068F4900F610B5 /* Lottie */; };
+		007F87A32B068F9200F610B5 /* anim2.json in Resources */ = {isa = PBXBuildFile; fileRef = 007F87A12B068F9200F610B5 /* anim2.json */; };
+		007F87A42B068F9200F610B5 /* anim1.json in Resources */ = {isa = PBXBuildFile; fileRef = 007F87A22B068F9200F610B5 /* anim1.json */; };
+		008A56142B109AE200708054 /* ShowMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A56132B109AE200708054 /* ShowMenuVC.swift */; };
+		008A56192B109CEA00708054 /* menu1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 008A56162B109CEA00708054 /* menu1.pdf */; };
+		008A561A2B109CEA00708054 /* menu3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 008A56172B109CEA00708054 /* menu3.pdf */; };
+		008A561B2B109CEA00708054 /* menu2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 008A56182B109CEA00708054 /* menu2.pdf */; };
+		008A561D2B109D3000708054 /* menu4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 008A561C2B109D3000708054 /* menu4.pdf */; };
+		008A56202B10A0F300708054 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 008A561F2B10A0F300708054 /* IQKeyboardManagerSwift */; };
+		008A56222B10AB7800708054 /* Convertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A56212B10AB7800708054 /* Convertor.swift */; };
+		00B543A42B067142009742D1 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B543A32B067142009742D1 /* BookingVC.swift */; };
+		00B543A72B067C94009742D1 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B543A62B067C94009742D1 /* FloatRatingView.swift */; };
+		00B543A92B068171009742D1 /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B543A82B068171009742D1 /* GlobalDateTimePicker.swift */; };
+		00CCE1072B054BF500191DDA /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1062B054BF500191DDA /* CategoryModel.swift */; };
+		00CCE10A2B054DAD00191DDA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1092B054DAD00191DDA /* ViewModel.swift */; };
+		00CCE10D2B054F8B00191DDA /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 00CCE10C2B054F8B00191DDA /* SDWebImage */; };
+		00CCE1212B0556EA00191DDA /* BundleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1102B0556EA00191DDA /* BundleModule.swift */; };
+		00CCE1222B0556EA00191DDA /* ImageSlideshowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1112B0556EA00191DDA /* ImageSlideshowItem.swift */; };
+		00CCE1232B0556EA00191DDA /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1122B0556EA00191DDA /* ActivityIndicator.swift */; };
+		00CCE1242B0556EA00191DDA /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1132B0556EA00191DDA /* ImageSlideshow.swift */; };
+		00CCE1252B0556EA00191DDA /* SDWebImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1142B0556EA00191DDA /* SDWebImageSource.swift */; };
+		00CCE1262B0556EA00191DDA /* PageIndicatorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1152B0556EA00191DDA /* PageIndicatorPosition.swift */; };
+		00CCE1272B0556EA00191DDA /* FullScreenSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1162B0556EA00191DDA /* FullScreenSlideshowViewController.swift */; };
+		00CCE1282B0556EA00191DDA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1172B0556EA00191DDA /* SwiftSupport.swift */; };
+		00CCE1292B0556EA00191DDA /* InputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1182B0556EA00191DDA /* InputSource.swift */; };
+		00CCE12A2B0556EA00191DDA /* UIImageAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1192B0556EA00191DDA /* UIImageAspectFit.swift */; };
+		00CCE12B2B0556EA00191DDA /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE11A2B0556EA00191DDA /* PageIndicator.swift */; };
+		00CCE12C2B0556EA00191DDA /* UIImageViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE11B2B0556EA00191DDA /* UIImageViewTools.swift */; };
+		00CCE1302B0556EA00191DDA /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1202B0556EA00191DDA /* ZoomAnimatedTransitioning.swift */; };
+		00CCE1322B055A7600191DDA /* OffersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1312B055A7600191DDA /* OffersModel.swift */; };
+		00CCE1342B055EAD00191DDA /* RestaurantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1332B055EAD00191DDA /* RestaurantsModel.swift */; };
+		00CCE1372B05DB8200191DDA /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 00CCE1362B05DB8200191DDA /* AnimatedGradientView */; };
+		00CCE1392B05FC0100191DDA /* BookingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE1382B05FC0100191DDA /* BookingTableView.swift */; };
+		00CCE13B2B05FC5800191DDA /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCE13A2B05FC5800191DDA /* FoldingCell.swift */; };
+		80122A902AF772600038264E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122A8F2AF772600038264E /* AppDelegate.swift */; };
+		80122A922AF772600038264E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122A912AF772600038264E /* SceneDelegate.swift */; };
+		80122A942AF772600038264E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122A932AF772600038264E /* ViewController.swift */; };
+		80122A972AF772600038264E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80122A952AF772600038264E /* Main.storyboard */; };
+		80122A992AF772620038264E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80122A982AF772620038264E /* Assets.xcassets */; };
+		80122A9C2AF772620038264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80122A9A2AF772620038264E /* LaunchScreen.storyboard */; };
+		80122AA92AF79FBE0038264E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AA62AF79FBE0038264E /* LoginVC.swift */; };
+		80122AAB2AF79FBE0038264E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AA82AF79FBE0038264E /* SignUpVC.swift */; };
+		80122AB02AF79FEC0038264E /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AAD2AF79FEB0038264E /* UserDefaultsManager.swift */; };
+		80122AB12AF79FEC0038264E /* ForgetPasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AAE2AF79FEB0038264E /* ForgetPasswordManager.swift */; };
+		80122AB22AF79FEC0038264E /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AAF2AF79FEC0038264E /* FireStoreManager.swift */; };
+		80122AB42AF7A10E0038264E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80122AB32AF7A10E0038264E /* GoogleService-Info.plist */; };
+		80122AB72AF7A2720038264E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 80122AB62AF7A2720038264E /* FirebaseAuth */; };
+		80122AB92AF7A2720038264E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 80122AB82AF7A2720038264E /* FirebaseDatabase */; };
+		80122ABB2AF7A2720038264E /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80122ABA2AF7A2720038264E /* FirebaseDatabaseSwift */; };
+		80122ABD2AF7A2720038264E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 80122ABC2AF7A2720038264E /* FirebaseFirestore */; };
+		80122ABF2AF7A2720038264E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80122ABE2AF7A2720038264E /* FirebaseFirestoreSwift */; };
+		80122AC12AF7A2720038264E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 80122AC02AF7A2720038264E /* FirebaseStorage */; };
+		80122AC72AF7A33B0038264E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AC32AF7A33B0038264E /* Extensions.swift */; };
+		80122AC82AF7A33B0038264E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AC42AF7A33B0038264E /* DesignableView.swift */; };
+		80122AC92AF7A33B0038264E /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AC52AF7A33B0038264E /* ButtonWithShadow.swift */; };
+		80122ACA2AF7A33B0038264E /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AC62AF7A33B0038264E /* ButtonExtension.swift */; };
+		80122ACC2AF7D1130038264E /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122ACB2AF7D1130038264E /* BackButton.swift */; };
+		80122ACE2AF7D37E0038264E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122ACD2AF7D37E0038264E /* HomeVC.swift */; };
+		80122AD02AF7D3A00038264E /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122ACF2AF7D3A00038264E /* UserInfoVC.swift */; };
+		80122AD22AF7D3BC0038264E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AD12AF7D3BC0038264E /* SearchVC.swift */; };
+		80122AD42AF7D3CF0038264E /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AD32AF7D3CF0038264E /* CategoryVC.swift */; };
+		80122AD62AF7D3DD0038264E /* OffersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AD52AF7D3DD0038264E /* OffersVC.swift */; };
+		80122AD82AF7D3FC0038264E /* RestaurantDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AD72AF7D3FC0038264E /* RestaurantDetailVC.swift */; };
+		80122ADA2AF7D40D0038264E /* RestaunrantTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AD92AF7D40D0038264E /* RestaunrantTableVC.swift */; };
+		80122ADF2AF80A6B0038264E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122ADE2AF80A6B0038264E /* CollectionViewCell.swift */; };
+		80122AE12AF81AF90038264E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80122AE02AF81AF90038264E /* TableViewCell.swift */; };
+		803E97952B19092F00243F9A /* BookingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803E97942B19092F00243F9A /* BookingDetailVC.swift */; };
+		8075AF502AFEA1A300986235 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075AF4F2AFEA1A300986235 /* RecipeManager.swift */; };
+		8076B30C2AFA6DBE00E7EB57 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076B30B2AFA6DBE00E7EB57 /* HealthKitManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005C79BA2B1D814700FC5FFA /* RestaurantAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAPI.swift; sourceTree = "<group>"; };
+		007F879B2B06892E00F610B5 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		007F87A12B068F9200F610B5 /* anim2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = anim2.json; sourceTree = "<group>"; };
+		007F87A22B068F9200F610B5 /* anim1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = anim1.json; sourceTree = "<group>"; };
+		008A56132B109AE200708054 /* ShowMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMenuVC.swift; sourceTree = "<group>"; };
+		008A56162B109CEA00708054 /* menu1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menu1.pdf; sourceTree = "<group>"; };
+		008A56172B109CEA00708054 /* menu3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menu3.pdf; sourceTree = "<group>"; };
+		008A56182B109CEA00708054 /* menu2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menu2.pdf; sourceTree = "<group>"; };
+		008A561C2B109D3000708054 /* menu4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menu4.pdf; sourceTree = "<group>"; };
+		008A56212B10AB7800708054 /* Convertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertor.swift; sourceTree = "<group>"; };
+		00B543A32B067142009742D1 /* BookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		00B543A62B067C94009742D1 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		00B543A82B068171009742D1 /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
+		00CCE1062B054BF500191DDA /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		00CCE1092B054DAD00191DDA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		00CCE1102B0556EA00191DDA /* BundleModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleModule.swift; sourceTree = "<group>"; };
+		00CCE1112B0556EA00191DDA /* ImageSlideshowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlideshowItem.swift; sourceTree = "<group>"; };
+		00CCE1122B0556EA00191DDA /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		00CCE1132B0556EA00191DDA /* ImageSlideshow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlideshow.swift; sourceTree = "<group>"; };
+		00CCE1142B0556EA00191DDA /* SDWebImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWebImageSource.swift; sourceTree = "<group>"; };
+		00CCE1152B0556EA00191DDA /* PageIndicatorPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicatorPosition.swift; sourceTree = "<group>"; };
+		00CCE1162B0556EA00191DDA /* FullScreenSlideshowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenSlideshowViewController.swift; sourceTree = "<group>"; };
+		00CCE1172B0556EA00191DDA /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		00CCE1182B0556EA00191DDA /* InputSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSource.swift; sourceTree = "<group>"; };
+		00CCE1192B0556EA00191DDA /* UIImageAspectFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageAspectFit.swift; sourceTree = "<group>"; };
+		00CCE11A2B0556EA00191DDA /* PageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		00CCE11B2B0556EA00191DDA /* UIImageViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewTools.swift; sourceTree = "<group>"; };
+		00CCE1202B0556EA00191DDA /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		00CCE1312B055A7600191DDA /* OffersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersModel.swift; sourceTree = "<group>"; };
+		00CCE1332B055EAD00191DDA /* RestaurantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsModel.swift; sourceTree = "<group>"; };
+		00CCE1382B05FC0100191DDA /* BookingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableView.swift; sourceTree = "<group>"; };
+		00CCE13A2B05FC5800191DDA /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		80122A8C2AF772600038264E /* Eaterer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eaterer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80122A8F2AF772600038264E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80122A912AF772600038264E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80122A932AF772600038264E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80122A962AF772600038264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80122A982AF772620038264E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80122A9B2AF772620038264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80122A9D2AF772620038264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80122AA62AF79FBE0038264E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		80122AA82AF79FBE0038264E /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		80122AAD2AF79FEB0038264E /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		80122AAE2AF79FEB0038264E /* ForgetPasswordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordManager.swift; sourceTree = "<group>"; };
+		80122AAF2AF79FEC0038264E /* FireStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
+		80122AB32AF7A10E0038264E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80122AC32AF7A33B0038264E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		80122AC42AF7A33B0038264E /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		80122AC52AF7A33B0038264E /* ButtonWithShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
+		80122AC62AF7A33B0038264E /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		80122ACB2AF7D1130038264E /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		80122ACD2AF7D37E0038264E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		80122ACF2AF7D3A00038264E /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		80122AD12AF7D3BC0038264E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		80122AD32AF7D3CF0038264E /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		80122AD52AF7D3DD0038264E /* OffersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersVC.swift; sourceTree = "<group>"; };
+		80122AD72AF7D3FC0038264E /* RestaurantDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailVC.swift; sourceTree = "<group>"; };
+		80122AD92AF7D40D0038264E /* RestaunrantTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaunrantTableVC.swift; sourceTree = "<group>"; };
+		80122ADE2AF80A6B0038264E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		80122AE02AF81AF90038264E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		803E97942B19092F00243F9A /* BookingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailVC.swift; sourceTree = "<group>"; };
+		8075AF4F2AFEA1A300986235 /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		8076B3092AFA6D0100E7EB57 /* Eaterer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eaterer.entitlements; sourceTree = "<group>"; };
+		8076B30B2AFA6DBE00E7EB57 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80122A892AF772600038264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCE1372B05DB8200191DDA /* AnimatedGradientView in Frameworks */,
+				80122ABF2AF7A2720038264E /* FirebaseFirestoreSwift in Frameworks */,
+				007F879F2B068F4900F610B5 /* Lottie in Frameworks */,
+				80122ABB2AF7A2720038264E /* FirebaseDatabaseSwift in Frameworks */,
+				80122ABD2AF7A2720038264E /* FirebaseFirestore in Frameworks */,
+				008A56202B10A0F300708054 /* IQKeyboardManagerSwift in Frameworks */,
+				00CCE10D2B054F8B00191DDA /* SDWebImage in Frameworks */,
+				80122AB92AF7A2720038264E /* FirebaseDatabase in Frameworks */,
+				80122AB72AF7A2720038264E /* FirebaseAuth in Frameworks */,
+				80122AC12AF7A2720038264E /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007F87A02B068F7900F610B5 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				007F87A22B068F9200F610B5 /* anim1.json */,
+				007F87A12B068F9200F610B5 /* anim2.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		008A56152B109CE400708054 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				008A561C2B109D3000708054 /* menu4.pdf */,
+				008A56162B109CEA00708054 /* menu1.pdf */,
+				008A56182B109CEA00708054 /* menu2.pdf */,
+				008A56172B109CEA00708054 /* menu3.pdf */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		00B543A22B067136009742D1 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				00CCE1382B05FC0100191DDA /* BookingTableView.swift */,
+				00B543A32B067142009742D1 /* BookingVC.swift */,
+				007F879B2B06892E00F610B5 /* PaymentVC.swift */,
+				803E97942B19092F00243F9A /* BookingDetailVC.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		00B543A52B067C94009742D1 /* FloatRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				00B543A62B067C94009742D1 /* FloatRatingView.swift */,
+			);
+			path = FloatRatingView;
+			sourceTree = "<group>";
+		};
+		00CCE1052B054BEA00191DDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00CCE1062B054BF500191DDA /* CategoryModel.swift */,
+				00CCE1312B055A7600191DDA /* OffersModel.swift */,
+				00CCE1332B055EAD00191DDA /* RestaurantsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00CCE1082B054DA200191DDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00CCE1092B054DAD00191DDA /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00CCE10E2B0556D900191DDA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				00B543A52B067C94009742D1 /* FloatRatingView */,
+				00CCE10F2B0556EA00191DDA /* ImageSlideshow */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		00CCE10F2B0556EA00191DDA /* ImageSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				00CCE1102B0556EA00191DDA /* BundleModule.swift */,
+				00CCE1112B0556EA00191DDA /* ImageSlideshowItem.swift */,
+				00CCE1122B0556EA00191DDA /* ActivityIndicator.swift */,
+				00CCE1132B0556EA00191DDA /* ImageSlideshow.swift */,
+				00CCE1142B0556EA00191DDA /* SDWebImageSource.swift */,
+				00CCE1152B0556EA00191DDA /* PageIndicatorPosition.swift */,
+				00CCE1162B0556EA00191DDA /* FullScreenSlideshowViewController.swift */,
+				00CCE1172B0556EA00191DDA /* SwiftSupport.swift */,
+				00CCE1182B0556EA00191DDA /* InputSource.swift */,
+				00CCE1192B0556EA00191DDA /* UIImageAspectFit.swift */,
+				00CCE11A2B0556EA00191DDA /* PageIndicator.swift */,
+				00CCE11B2B0556EA00191DDA /* UIImageViewTools.swift */,
+				00CCE1202B0556EA00191DDA /* ZoomAnimatedTransitioning.swift */,
+			);
+			path = ImageSlideshow;
+			sourceTree = "<group>";
+		};
+		80122A832AF772600038264E = {
+			isa = PBXGroup;
+			children = (
+				80122A8E2AF772600038264E /* Eaterer */,
+				80122A8D2AF772600038264E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80122A8D2AF772600038264E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80122A8C2AF772600038264E /* Eaterer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80122A8E2AF772600038264E /* Eaterer */ = {
+			isa = PBXGroup;
+			children = (
+				008A56152B109CE400708054 /* Menu */,
+				007F87A02B068F7900F610B5 /* Animations */,
+				00CCE10E2B0556D900191DDA /* Libraries */,
+				00CCE1082B054DA200191DDA /* ViewModel */,
+				00CCE1052B054BEA00191DDA /* Models */,
+				8076B30A2AFA6DAB00E7EB57 /* HealthKitManager */,
+				8076B3092AFA6D0100E7EB57 /* Eaterer.entitlements */,
+				80122AC22AF7A3210038264E /* Extensions */,
+				80122AAC2AF79FD20038264E /* FirebaseManager */,
+				80122AA32AF79F650038264E /* ViewController */,
+				80122A8F2AF772600038264E /* AppDelegate.swift */,
+				80122A912AF772600038264E /* SceneDelegate.swift */,
+				80122A932AF772600038264E /* ViewController.swift */,
+				80122A952AF772600038264E /* Main.storyboard */,
+				80122A982AF772620038264E /* Assets.xcassets */,
+				80122A9A2AF772620038264E /* LaunchScreen.storyboard */,
+				80122A9D2AF772620038264E /* Info.plist */,
+				80122AB32AF7A10E0038264E /* GoogleService-Info.plist */,
+				005C79BA2B1D814700FC5FFA /* RestaurantAPI.swift */,
+			);
+			path = Eaterer;
+			sourceTree = "<group>";
+		};
+		80122AA32AF79F650038264E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00B543A22B067136009742D1 /* Booking */,
+				80122ADD2AF80A510038264E /* CustomCell */,
+				80122ACB2AF7D1130038264E /* BackButton.swift */,
+				80122AA52AF79F7B0038264E /* Home */,
+				80122AA42AF79F710038264E /* Onboarding */,
+				00B543A82B068171009742D1 /* GlobalDateTimePicker.swift */,
+				008A56132B109AE200708054 /* ShowMenuVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80122AA42AF79F710038264E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				80122AA62AF79FBE0038264E /* LoginVC.swift */,
+				80122AA82AF79FBE0038264E /* SignUpVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		80122AA52AF79F7B0038264E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80122ACD2AF7D37E0038264E /* HomeVC.swift */,
+				80122ACF2AF7D3A00038264E /* UserInfoVC.swift */,
+				80122AD12AF7D3BC0038264E /* SearchVC.swift */,
+				80122AD32AF7D3CF0038264E /* CategoryVC.swift */,
+				80122AD52AF7D3DD0038264E /* OffersVC.swift */,
+				80122AD72AF7D3FC0038264E /* RestaurantDetailVC.swift */,
+				80122AD92AF7D40D0038264E /* RestaunrantTableVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		80122AAC2AF79FD20038264E /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				80122AAF2AF79FEC0038264E /* FireStoreManager.swift */,
+				80122AAE2AF79FEB0038264E /* ForgetPasswordManager.swift */,
+				80122AAD2AF79FEB0038264E /* UserDefaultsManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		80122AC22AF7A3210038264E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				008A56212B10AB7800708054 /* Convertor.swift */,
+				80122AC62AF7A33B0038264E /* ButtonExtension.swift */,
+				80122AC52AF7A33B0038264E /* ButtonWithShadow.swift */,
+				80122AC42AF7A33B0038264E /* DesignableView.swift */,
+				80122AC32AF7A33B0038264E /* Extensions.swift */,
+				00CCE13A2B05FC5800191DDA /* FoldingCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80122ADD2AF80A510038264E /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				80122ADE2AF80A6B0038264E /* CollectionViewCell.swift */,
+				80122AE02AF81AF90038264E /* TableViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		8076B30A2AFA6DAB00E7EB57 /* HealthKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				8076B30B2AFA6DBE00E7EB57 /* HealthKitManager.swift */,
+				8075AF4F2AFEA1A300986235 /* RecipeManager.swift */,
+			);
+			path = HealthKitManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80122A8B2AF772600038264E /* Eaterer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80122AA02AF772620038264E /* Build configuration list for PBXNativeTarget "Eaterer" */;
+			buildPhases = (
+				80122A882AF772600038264E /* Sources */,
+				80122A892AF772600038264E /* Frameworks */,
+				80122A8A2AF772600038264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eaterer;
+			packageProductDependencies = (
+				80122AB62AF7A2720038264E /* FirebaseAuth */,
+				80122AB82AF7A2720038264E /* FirebaseDatabase */,
+				80122ABA2AF7A2720038264E /* FirebaseDatabaseSwift */,
+				80122ABC2AF7A2720038264E /* FirebaseFirestore */,
+				80122ABE2AF7A2720038264E /* FirebaseFirestoreSwift */,
+				80122AC02AF7A2720038264E /* FirebaseStorage */,
+				00CCE10C2B054F8B00191DDA /* SDWebImage */,
+				00CCE1362B05DB8200191DDA /* AnimatedGradientView */,
+				007F879E2B068F4900F610B5 /* Lottie */,
+				008A561F2B10A0F300708054 /* IQKeyboardManagerSwift */,
+			);
+			productName = Eaterer;
+			productReference = 80122A8C2AF772600038264E /* Eaterer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80122A842AF772600038264E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					80122A8B2AF772600038264E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 80122A872AF772600038264E /* Build configuration list for PBXProject "Eaterer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80122A832AF772600038264E;
+			packageReferences = (
+				80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				00CCE10B2B054F8B00191DDA /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				00CCE1352B05DB8200191DDA /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+				007F879D2B068F4900F610B5 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				008A561E2B10A0F300708054 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 80122A8D2AF772600038264E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80122A8B2AF772600038264E /* Eaterer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80122A8A2AF772600038264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A561D2B109D3000708054 /* menu4.pdf in Resources */,
+				80122A9C2AF772620038264E /* LaunchScreen.storyboard in Resources */,
+				008A561A2B109CEA00708054 /* menu3.pdf in Resources */,
+				008A56192B109CEA00708054 /* menu1.pdf in Resources */,
+				80122AB42AF7A10E0038264E /* GoogleService-Info.plist in Resources */,
+				007F87A32B068F9200F610B5 /* anim2.json in Resources */,
+				80122A992AF772620038264E /* Assets.xcassets in Resources */,
+				008A561B2B109CEA00708054 /* menu2.pdf in Resources */,
+				007F87A42B068F9200F610B5 /* anim1.json in Resources */,
+				80122A972AF772600038264E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80122A882AF772600038264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80122A942AF772600038264E /* ViewController.swift in Sources */,
+				80122A902AF772600038264E /* AppDelegate.swift in Sources */,
+				80122AA92AF79FBE0038264E /* LoginVC.swift in Sources */,
+				80122AD62AF7D3DD0038264E /* OffersVC.swift in Sources */,
+				80122AC82AF7A33B0038264E /* DesignableView.swift in Sources */,
+				80122AB22AF79FEC0038264E /* FireStoreManager.swift in Sources */,
+				008A56142B109AE200708054 /* ShowMenuVC.swift in Sources */,
+				00B543A72B067C94009742D1 /* FloatRatingView.swift in Sources */,
+				00CCE1252B0556EA00191DDA /* SDWebImageSource.swift in Sources */,
+				803E97952B19092F00243F9A /* BookingDetailVC.swift in Sources */,
+				00CCE10A2B054DAD00191DDA /* ViewModel.swift in Sources */,
+				00CCE12B2B0556EA00191DDA /* PageIndicator.swift in Sources */,
+				00B543A42B067142009742D1 /* BookingVC.swift in Sources */,
+				80122ADF2AF80A6B0038264E /* CollectionViewCell.swift in Sources */,
+				80122AB12AF79FEC0038264E /* ForgetPasswordManager.swift in Sources */,
+				00CCE12A2B0556EA00191DDA /* UIImageAspectFit.swift in Sources */,
+				80122ACE2AF7D37E0038264E /* HomeVC.swift in Sources */,
+				80122AE12AF81AF90038264E /* TableViewCell.swift in Sources */,
+				80122AD82AF7D3FC0038264E /* RestaurantDetailVC.swift in Sources */,
+				80122AC72AF7A33B0038264E /* Extensions.swift in Sources */,
+				80122AC92AF7A33B0038264E /* ButtonWithShadow.swift in Sources */,
+				00CCE1302B0556EA00191DDA /* ZoomAnimatedTransitioning.swift in Sources */,
+				80122AB02AF79FEC0038264E /* UserDefaultsManager.swift in Sources */,
+				00CCE1222B0556EA00191DDA /* ImageSlideshowItem.swift in Sources */,
+				00CCE1212B0556EA00191DDA /* BundleModule.swift in Sources */,
+				80122A922AF772600038264E /* SceneDelegate.swift in Sources */,
+				00CCE1292B0556EA00191DDA /* InputSource.swift in Sources */,
+				005C79BB2B1D814700FC5FFA /* RestaurantAPI.swift in Sources */,
+				00CCE1282B0556EA00191DDA /* SwiftSupport.swift in Sources */,
+				8075AF502AFEA1A300986235 /* RecipeManager.swift in Sources */,
+				80122AAB2AF79FBE0038264E /* SignUpVC.swift in Sources */,
+				80122ADA2AF7D40D0038264E /* RestaunrantTableVC.swift in Sources */,
+				00CCE1272B0556EA00191DDA /* FullScreenSlideshowViewController.swift in Sources */,
+				80122AD42AF7D3CF0038264E /* CategoryVC.swift in Sources */,
+				00CCE12C2B0556EA00191DDA /* UIImageViewTools.swift in Sources */,
+				00CCE1392B05FC0100191DDA /* BookingTableView.swift in Sources */,
+				007F879C2B06892E00F610B5 /* PaymentVC.swift in Sources */,
+				00CCE1342B055EAD00191DDA /* RestaurantsModel.swift in Sources */,
+				8076B30C2AFA6DBE00E7EB57 /* HealthKitManager.swift in Sources */,
+				00CCE1322B055A7600191DDA /* OffersModel.swift in Sources */,
+				80122ACA2AF7A33B0038264E /* ButtonExtension.swift in Sources */,
+				80122ACC2AF7D1130038264E /* BackButton.swift in Sources */,
+				00CCE1242B0556EA00191DDA /* ImageSlideshow.swift in Sources */,
+				80122AD22AF7D3BC0038264E /* SearchVC.swift in Sources */,
+				00CCE1262B0556EA00191DDA /* PageIndicatorPosition.swift in Sources */,
+				00CCE1232B0556EA00191DDA /* ActivityIndicator.swift in Sources */,
+				00CCE1072B054BF500191DDA /* CategoryModel.swift in Sources */,
+				00B543A92B068171009742D1 /* GlobalDateTimePicker.swift in Sources */,
+				008A56222B10AB7800708054 /* Convertor.swift in Sources */,
+				80122AD02AF7D3A00038264E /* UserInfoVC.swift in Sources */,
+				00CCE13B2B05FC5800191DDA /* FoldingCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80122A952AF772600038264E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80122A962AF772600038264E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80122A9A2AF772620038264E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80122A9B2AF772620038264E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80122A9E2AF772620038264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80122A9F2AF772620038264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80122AA12AF772620038264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Eaterer/Eaterer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UWQKK2RUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eaterer/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need share access to health data to track dietary energy consumed for personalized health insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need write access to health data to track dietary energy consumed for personalized health insights.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.edu.eaterer.ap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80122AA22AF772620038264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Eaterer/Eaterer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UWQKK2RUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eaterer/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need share access to health data to track dietary energy consumed for personalized health insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need write access to health data to track dietary energy consumed for personalized health insights.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.edu.eaterer.ap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80122A872AF772600038264E /* Build configuration list for PBXProject "Eaterer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80122A9E2AF772620038264E /* Debug */,
+				80122A9F2AF772620038264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80122AA02AF772620038264E /* Build configuration list for PBXNativeTarget "Eaterer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80122AA12AF772620038264E /* Debug */,
+				80122AA22AF772620038264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		007F879D2B068F4900F610B5 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		008A561E2B10A0F300708054 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		00CCE10B2B054F8B00191DDA /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		00CCE1352B05DB8200191DDA /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		007F879E2B068F4900F610B5 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007F879D2B068F4900F610B5 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		008A561F2B10A0F300708054 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 008A561E2B10A0F300708054 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		00CCE10C2B054F8B00191DDA /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00CCE10B2B054F8B00191DDA /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		00CCE1362B05DB8200191DDA /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00CCE1352B05DB8200191DDA /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+		80122AB62AF7A2720038264E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		80122AB82AF7A2720038264E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		80122ABA2AF7A2720038264E /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		80122ABC2AF7A2720038264E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		80122ABE2AF7A2720038264E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		80122AC02AF7A2720038264E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80122AB52AF7A2720038264E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80122A842AF772600038264E /* Project object */;
+}

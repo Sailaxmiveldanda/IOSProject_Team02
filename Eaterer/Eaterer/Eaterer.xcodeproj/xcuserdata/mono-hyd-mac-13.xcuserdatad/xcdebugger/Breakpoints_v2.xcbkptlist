@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2523AB2-FB59-41E1-A5BE-87773695B72B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F10108BD-F745-497E-8A43-C1B8D389C55E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Eaterer/FirebaseManager/FireStoreManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "FireStoreManager"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "F10108BD-F745-497E-8A43-C1B8D389C55E - dfdb31a604228f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Eaterer.FireStoreManager.getAllRestaurants(completion: (Swift.Array&lt;Eaterer.RestaurantsModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Eaterer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mono-hyd-mac-13/Xcode%20Projects/Deepika/Eaterer/Eaterer/FirebaseManager/FireStoreManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "F10108BD-F745-497E-8A43-C1B8D389C55E - dfdb31a604228f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Eaterer.FireStoreManager.getAllRestaurants(completion: (Swift.Array&lt;Eaterer.RestaurantsModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Eaterer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mono-hyd-mac-13/Xcode%20Projects/Deepika/Eaterer/Eaterer/FirebaseManager/FireStoreManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "798312AD-E674-4D7D-BEC3-9684BB8218F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Eaterer/FirebaseManager/FireStoreManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "FireStoreManager"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "798312AD-E674-4D7D-BEC3-9684BB8218F4 - dfdb31a604228f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Eaterer.FireStoreManager.getAllRestaurants(completion: (Swift.Array&lt;Eaterer.RestaurantsModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Eaterer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mono-hyd-mac-13/Xcode%20Projects/Deepika/Eaterer/Eaterer/FirebaseManager/FireStoreManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "798312AD-E674-4D7D-BEC3-9684BB8218F4 - dfdb31a604228f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Eaterer.FireStoreManager.getAllRestaurants(completion: (Swift.Array&lt;Eaterer.RestaurantsModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Eaterer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mono-hyd-mac-13/Xcode%20Projects/Deepika/Eaterer/Eaterer/FirebaseManager/FireStoreManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "275BAD19-0E68-4F0F-B068-BB5963C51B27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Eaterer/FirebaseManager/FireStoreManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "FireStoreManager"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
